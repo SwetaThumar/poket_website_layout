@@ -1,0 +1,677 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.spacer
+{
+  padding: 80px 0;
+}
+.container{
+  width: 1140px;
+  margin: auto;
+}
+.flex{
+  display: flex;
+}
+body{
+  overflow-x: hidden;
+}
+/* Top-header start */
+.top-header{
+  background-color:#0067ED ;
+  
+}
+.main-div{
+  padding: 12px;
+  color: white;
+  
+}
+.top-left{
+  justify-content: end;
+}
+
+.text{
+  font-size: 16px;
+}
+.top-text{
+  margin-left: 4px;
+  margin-right: 20px;
+
+
+}
+ .hourse{
+  margin-left: 350px;
+} 
+.icon-right{
+  font-size: 18px;
+  margin-right: 6px;
+  margin-left: 8px;
+}
+.icon-right:hover{
+  color: black;
+}
+.icon-left{
+  font-size: 16px;
+}
+.icons-left{
+  font-size: 19px;
+}
+/* Top-header end */
+
+/* main header start */
+.main-logo{
+  align-items: center;
+  margin-top: 22px;
+}
+.main-menu{
+  padding: 14px 0;
+
+}
+.main-header ul li {
+  text-decoration: none;
+  list-style: none;
+}
+.main-header ul li{
+  font-weight:600;
+  margin-left: 40px;
+  position: relative;
+  font-size: 17px;
+
+}
+.flexs{
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  margin-left: 200px;
+  padding-bottom: 15px;
+}
+.flexs >li> a:hover{
+    color: #0067ED;
+}
+.main-icon{
+  font-size: 12px;
+  position: absolute;
+  margin-top: 7px;
+  margin-left: 5px;
+  color: rgb(59, 58, 58);
+}
+.search-icon{
+  font-size: 18px;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+ .btn{
+  font-size: 17px;
+  background-color: #0067ED;
+  color: white;
+  border: none;
+  margin-left: 30px; 
+  width: 150px;
+  height: 50px;
+  
+ } 
+ .btn:hover{
+    background-color: rgb(37, 36, 36);
+ }
+  
+ /* main-header end */
+
+
+ /* ************************Main-Menu-Slider Start************ */
+ 
+  .Slider-img{
+  width: 100%;
+  position: absolute;
+  }
+  .m-div{
+    position: relative;
+    padding-top: 60px;
+   
+  }
+  .slider-text1{
+    background-color: #0067ED;
+    color: white;
+    border: none;
+    width: 210px;
+    height: 45px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight:550;
+    margin-bottom: 25px;
+  }
+  .slider-text2{
+    font-size: 55px;
+    font-weight: 350;
+    letter-spacing: 2px;
+    margin-bottom: 18px;
+  
+  }
+  .slider-text3{
+    color: #0067ED;
+    font-size: 52px;
+    letter-spacing: 2px;
+  }
+ .slider-text4{
+    margin-bottom: 30px;
+    font-size: 19px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin-top: 25px;
+    color: rgb(59, 58, 58);
+  }
+  .btn1{
+    font-size: 17px;
+    background-color: #0067ED;
+    color: white;
+    border: none;
+    width: 180px;
+    height: 60px;
+    border-radius: 30px;
+    
+   } 
+   .btn1:hover{
+      background-color: rgb(37, 36, 36);
+   }
+
+   .btn2{
+    font-size: 17px;
+    background-color: rgb(237, 231, 231);
+    color:#0067ED;
+    border: none;
+    margin-left: 20px; 
+    border: none;
+    width: 180px;
+    height: 60px;
+    border-radius: 30px;
+    
+   } 
+   .btn2:hover{
+      background-color: #0067ED;
+      color: white;
+     
+   }
+   .slider-btn{
+    /* margin-top:10px; */
+   position: absolute;
+  
+   }
+
+/* ********************Main-Menu-Slider end******************** */
+
+
+/*********** Visa-Service-area Start *************/
+ .visa-service-area > div{
+   box-shadow: 1px gray;
+   width: 30% !important;
+   text-align: center;
+   position: relative;
+  background-color:rgb(254, 254, 254);
+  margin-right: 20px;
+
+ }
+img.icon1{
+  width: 30%;
+  border-radius: 50%;
+  margin-top: 40px;
+  
+}
+.visa-text1{
+  font-size: 25px;
+  margin: 10px 0;
+}
+.visa-text2{
+  color: #0067ED;
+  margin-top: 25px ;
+  font-size: 17px;
+  margin-left: 16px;
+  
+}
+.visa-icon{
+  margin-left: 5px;
+}
+/*********** Visa-Service-area end *************/
+
+
+ /********* Visa-About-Area WElCOME TO POCKET START ********/
+
+ .about-content{
+  margin-left: 70px;
+ }
+ .abouttext-1{
+  color: #0067ED;
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 10px;
+  letter-spacing: 1px;
+ }
+.abouttext-2{
+  font-weight: 360;
+  font-size: 36px;
+  margin-top: 10px;
+}
+.abouttext-3{
+  font-size: 35px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.abouttext-4{
+margin: 25px 0;
+font-size: 16px;
+color: rgb(88, 85, 85);
+}
+.srevice-inner{
+  justify-content: space-between;
+}
+.service-1{
+  margin-top: 25px;
+ 
+}
+.space{
+  margin-left: 30px;
+}
+.icon-1{
+  color: #0067ED;
+  font-size: 47px;
+  margin-right: 20px;
+
+}
+.visa1{
+  margin-bottom:17px;
+  font-size: 21px;
+}
+.visa2{
+  color: rgb(88, 85, 85);
+}
+.btn-a{
+  background-color: #0067ED;
+  color: white;
+  border: none;
+  height: 60px;
+  width: 200px;
+  border-radius: 30px;
+  font-size: 16px;
+  margin-top: 50px;
+  font-weight: 600;
+  margin-left: 10px;
+}
+.btn-a:hover{
+  background-color: rgb(38, 37, 37);
+}
+ /********* Visa-About-Area WElCOME TO POCKET END ********/
+
+ /* **********PROVIED SERVICE START******** */
+.color{
+  background-color:#262B3E;
+}
+.contant{
+  text-align: center;
+}
+.srevice-text1{
+  color: #0067ED;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.srevice-text2{
+  color: white;
+  font-size: 35px;
+  font-weight: 350;
+  letter-spacing: 2px;
+  margin-top: 5px;
+
+}
+
+.srevice-text3{
+  color: white;
+  font-size: 35px;
+  margin-top: 5px;
+  letter-spacing: 1px;
+  font-weight: 650;
+
+}
+.service-margin{
+  margin-top: 30px;
+}
+.our-service{
+  border: 1px dotted rgb(132, 131, 131);
+   width: 20% !important;
+   margin: 15px;
+   padding: 32px;
+   text-align: center;
+  background-color:#262B3E;
+
+}
+.service-icon{
+  color: #0067ED;
+  background-color: #1c2132;
+  border-radius: 50%;
+  padding: 19px;
+  font-size: 40px;
+}
+.service-icon:hover{
+  color: white;
+  background-color: #0067ED;
+  transition: 2s;
+}
+.our-service1{
+  color: rgb(241, 236, 236);
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin-top: 10px;
+  font-weight: 600;
+}
+.our-service2{
+  color: #90AEBE;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin-top: 20px;
+ 
+}
+
+
+
+/* **********PROVIED SERVICE END******** */
+
+/* *********LOOKING FOR VISA APPLICATION START*********** */
+.provide-start{
+  padding-bottom: 80px;
+}
+.visa_start{
+  position: relative;
+
+}
+.visa_end {
+  position:absolute;
+  bottom:-150px;
+  left: 80px;
+}   
+.bgcolor{
+  background-color: white;
+}
+.service-main{
+  margin-left: 60px;
+}
+.call-icon{
+  font-size: 40px;
+  background-color: #CFE2FC;
+  border-radius:70%;
+  padding: 20px;
+  color: #5297f1;
+
+}
+.service-text{
+  margin-left: 40px;
+  font-size: 28px;
+}
+.font-color{
+  color:#0067ED;
+}
+.call-us{
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: 350;
+  
+}
+.service-btn{
+  margin-left :120px;
+  border-radius: 30px;
+  font-size: 16px;
+  background-color: #0067ED;
+  color: white;
+  border: none;
+  height:55px;
+  width:210px;
+  margin-top: 7px;
+  font-weight: 600;
+  margin-right: 80px;
+}
+.service-btn:hover{
+  background-color: rgb(46, 46, 46);
+}
+
+/* ********LOOKING FOR VISA APPLICATION END ************/
+
+
+/* *************OUR MEMBAR START********** */
+
+.our_member{
+  margin-top: 70px;
+  text-align: center;
+}
+.our-membertext{
+  color: #0067ED;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.our-membertext2{
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #3c3a3a;
+  font-size: 36px;
+  margin-top: 5px;
+}
+.our-membertext3{
+  font-family:Arial, Helvetica, sans-serif;
+  margin-top: 12px;
+  font-size: 32px;
+}
+.member-section{
+ margin-top: 30px;
+ position: absolute;
+}
+.member1{
+  padding: 0px 30px;
+  margin-left:14px;
+}
+.member{
+  padding-right:30px;
+}
+.bg-color{
+  background-color: white;
+  height: 120px;
+  width: 330px;
+  position:relative;
+  margin-top: 380px;
+  border-bottom: 4px solid #0067ED;
+  border-radius: 10px;
+}
+.info{
+font-size: 25px;
+text-align: center;
+margin-top: 30px;
+font-weight: 600;
+
+}
+.info2{
+  text-align: center;
+  margin-top: 7px;
+  color: #0067ED;
+  font-size: 20px;
+  font-weight: 400;
+}
+.break{
+  margin-left: 72px;
+}
+
+
+/* *************OUR MEMBAR END********** */
+
+/* Since 1990 We Have Branches START */
+.slider-section{
+  margin: 30px 0px;
+}
+.img{
+  width:95%; 
+}
+.baranch-img{
+  margin-left: 75px;
+}
+.capacity{
+  margin: 40px 0px;
+  font-size: 18px;
+  font-weight:500;
+  border-bottom: 5px solid #0067ED;
+}
+/* Since 1990 We Have Branches END */
+
+/* ************OUR GALLERY START*********** */
+.poject-area{
+  width: 100%;
+}
+.img-area{
+  position:absolute;
+}
+.section{
+  position: relative;
+  text-align: center;
+}
+.text-1{
+  padding-top:40px;
+  letter-spacing: 1px;
+}
+.text-2{
+  padding-top: 15px;
+  font-weight:300;
+  font-size: 40px;
+}
+.text-3{
+  padding-top: 15px;
+  font-size: 30px;
+}
+/* ************OUR GALLERY END*********** */
+
+
+  /* *****OUR SLIDER-IMAGE START  ******/
+.main{
+  margin-top: 70px;
+}
+.arrow-btn{
+  text-align: center;
+
+}
+.arrow{
+  border: none;
+  background-color: #0067ED;
+  color: white;
+  height:60px;
+  width:65px;
+  font-size:32px;
+  padding-top:5px;
+  margin: 10px 30px 0px 30px;
+}
+  /* ***** OUR SLIDER-IMAGE START END  ******/
+
+/* **********Immigration Services From START********* */
+
+.area{
+  margin: 0px 150px;
+  
+}
+/* **********Immigration Services From END********* */
+.text-m{
+  color: #0067ED;
+}
+.text-m2{
+  margin-top: 15px;
+  font-weight: 350;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+.business-section{
+  margin-top: 30px;
+  position: absolute;
+ }
+ .member1{
+   padding: 0px 30px;
+   margin-left:14px;
+ }
+ .member{
+   padding-right:30px;
+ }
+ .bussiness-content{
+  background-color: rgb(255, 255, 255);
+  height: 190px;
+  width: 340px;
+  position:relative;
+  margin-top: 380px;
+}
+.text{
+ font-size: 17px;
+ font-weight: 400;
+ margin-top: 0px;
+}
+.icon{
+  color: #0067ED;
+  font-size: 20px;
+  margin: -6px 7px; 
+}
+/* *****FOOTER-START******** */
+.footer{
+  background-color: #0067ED;
+  margin-top: 60px;
+}
+.footer_part div{
+  line-height: 20px;
+}
+.footer_txt{
+  display: flex;
+  justify-content: space-between;
+}
+.footer_part,
+.footer_part1{
+  width: 40%;
+}
+.footer-icon{
+  color: white;
+  font-size:22px;
+  margin-top: 12px;
+}
+.footer-icon > i > svg{
+  background-color: black;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+}
+.footer-icon > i > svg:hover{
+  background-color: #0067ED;
+}
+.footer_part p,
+.footer_part1 p{
+  margin-right: 60px;
+  color: white;
+  padding-top: 15px;
+  text-align: justify;
+  word-spacing: 1px !important;
+}
+.footer_txt{
+  padding-top:80px;
+
+}
+.footer_part h4,
+.footer_part1 h4{
+  color: white;
+  font-size: 23px;
+  font-weight: bolder;
+}
+.footer_part div,
+.footer_part1 div{
+  color: white;
+  line-height: 40px;
+}
+.footer_part > div:hover{
+  cursor: pointer;
+  background-color: #0067ED;
+}
+
+.main-copyright{
+  background-color: black;
+  color: white;
+}
+.footer-last{
+  padding:25px;
+  /* margin-right:30px; */
+  text-align: center;
+}
+/* *****FOOTER-END******** */
+
